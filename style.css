@@ -106,7 +106,7 @@ input,button{
     vertical-align: middle;
 }
 
-.todo-container__list-item > input[type="checkbox"] {
+.todo-container__checkbox {
     margin: 0 10px;
 }
 .todo-container__list-item > label {
@@ -129,7 +129,7 @@ input,button{
 
 /* Completed */
 .completed-tasks__label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 

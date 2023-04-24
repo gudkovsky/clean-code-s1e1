@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-.matrix { text-align: center;
+.matrix { 
+    text-align: center;
 }
 }
 .todo-container {
@@ -29,7 +30,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row-wrapper {
     display: flex;
@@ -74,8 +75,8 @@ input,button{
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
+    border: 1px solid #ddd;
+    background: #fff;
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
@@ -116,8 +117,8 @@ input,button{
     font-size: 18px;
     width: 226px;
 }
-.todo-container__list-item >    .text-input {
-    width: 226px
+.todo-container__list-item > .text-input {
+    width: 226px;
 }
 .button.delete img {
     height: 2em;
@@ -136,7 +137,7 @@ input,button{
 
 /* Edit Task */
 .text-input {
-    display: none
+    display: none;
 }
 
 .edit-mode .text-input {

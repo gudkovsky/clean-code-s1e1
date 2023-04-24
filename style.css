@@ -38,7 +38,8 @@ ul {
     margin:0;
     padding: 0px;
 }
-li, h3 {
+li,
+h3 {
     list-style:none;
 }
 input,button{
@@ -138,11 +139,11 @@ input,button{
     display:none
 }
 
-.editMode .text-input {
+.edit-mode .text-input {
     display:inline-block;
     width:224px
 }
 
-.editMode label {
+.edit-mode label {
     display:none;
 }

@@ -21,9 +21,11 @@
 }
 
 @media (max-width:768px) {
+
     .matrix { 
         text-align: center;
     }
+
 }
 
 .todo-container {
@@ -150,7 +152,7 @@ input,button{
 }
 
 /* Completed */
-.completed-tasks__label {
+.todo-container__completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
